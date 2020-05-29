@@ -9,11 +9,11 @@ end
 def add_element_to_end_of_array(array, element)
   car_dealer = ["Ferrari", "Lamborghini", "Mercedes" , "Tesla"]
   car_dealer.push("Porsche")
-  
+  p car_dealer
 end
 
 def add_element_to_start_of_array(array, element)
-  car_dealer =["Ferrari", "Lamborghini", "Mercedes" , "Tesla"]
+  car_dealer =["Ferrari", "Lamborghini", "Mercedes" , "Tesla","Porsche"]
   car_dealer.unshift("Bentley")
   
 end
