@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   car_dealer = ["Ferrari", "Lamborghini", "Mercedes" , "Tesla"]
-  "porsche" = car_dealer.push
+  car_dealer.push = "Porsche"
 end
 
 def add_element_to_start_of_array(array, element)
